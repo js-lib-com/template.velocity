@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>$q.companyName Homepage</title>
+	</head>
+	<body>
+		<h1>Welcome!!</h1>
+#if ($userType == "Type 1")
+		<h2>You are Type 1!</h2>
+#elseif ($userType == "Type 2")
+		<h2>You are an Type 2.</h2>
+#elseif ($userType == "Type 3")
+		<h2>You are an Type 3!</h2>
+#else
+		<h2>I don't know what you are!</h2>
+#end
+	</body>
+</html>
