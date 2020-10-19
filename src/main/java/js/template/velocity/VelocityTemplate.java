@@ -7,6 +7,13 @@ import js.template.Template;
 public class VelocityTemplate implements Template
 {
   @Override
+  public String getName()
+  {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+  @Override
   public void setProperty(String name, Object value)
   {
 
