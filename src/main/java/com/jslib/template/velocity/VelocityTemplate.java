@@ -1,8 +1,8 @@
-package js.template.velocity;
+package com.jslib.template.velocity;
 
 import java.io.Writer;
 
-import js.template.Template;
+import com.jslib.api.template.Template;
 
 public class VelocityTemplate implements Template
 {

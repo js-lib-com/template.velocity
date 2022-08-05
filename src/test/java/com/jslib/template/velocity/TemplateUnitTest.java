@@ -1,4 +1,4 @@
-package js.template.velocity;
+package com.jslib.template.velocity;
 
 import junit.framework.TestCase;
 

@@ -1,11 +1,11 @@
-package js.template.velocity;
+package com.jslib.template.velocity;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.Reader;
 
-import js.template.Template;
-import js.template.TemplateEngine;
+import com.jslib.api.template.Template;
+import com.jslib.api.template.TemplateEngine;
 
 public class VelocityTemplateEngine implements TemplateEngine
 {
